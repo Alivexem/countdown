@@ -1,0 +1,111 @@
+body{
+    background-color: #2C2C2C;
+    padding: 2px 7px 0px 7px;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    color: lime;
+}
+#flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#flex p{
+    color: cyan;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.display input{
+    width: 37px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 0px 2px 10px;
+    background-color:gray;
+    color: black;
+    padding-left: 23px;
+    
+}
+
+#start{
+    background-color: green;
+    height: 26px;
+    width: 60px;
+    font-size: 16px;
+    border: none;
+    margin-top: 16px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    margin-right: 13px;
+    
+}
+#assert h2{
+    color: lime;
+    font-weight: bold;
+    
+}
+#assert input{
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 0px 2px 20px;
+    margin-right: 8px;
+    margin-left: 30px;
+    
+}
+
+#assert select{
+    width: 70px;
+    font-size: 16px;
+    height: 25px;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#pause{
+    background-color: red;
+    height: 26px;
+    width: 60px;
+    font-size: 16px;
+    border: none;
+    margin-top: 16px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    margin-right: 13px;
+    
+}
+
+#reset{
+    background-color: orange;
+    height: 26px;
+    width: 60px;
+    font-size: 16px;
+    border: none;
+    margin-top: 16px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    margin-right: 13px;
+    
+}
+
+#des{
+    background-color: white;
+    text-align: center;
+    padding: 7px 7px 14px 7px;
+    border-radius: 7px;
+    margin-top: 45px;
+    font-size: 16px;
+}

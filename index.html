@@ -1,0 +1,64 @@
+<!DOCTYPE Html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&family=Nunito:wght@400&display=swap" />
+    </head>
+    <body>
+        <h1>AlivexemTech countdown</h1>
+         
+              <div id="flex">
+                  <div class="display">
+                      <p>Day</p>
+                      <input id="day" type="display" readonly>
+                  </div>
+                  <div class="display">
+                      <p>Hour</p>
+                      <input id="hour" type="display" readonly>
+                  </div>
+                  <div class="display">
+                      <p>Minute</p>
+                      <input id="minute" type="display" readonly>
+                  </div>
+                  <div class="display">
+                      <p>Second</p>
+                      <input id="second" type="display" readonly>
+                  </div>
+                  
+              </div>
+          <div id="assert">
+              <h2>Input Countdown Below</h2>
+              <input id="input" type="number">
+              <select class="opt">
+                  <option value="day">Day</option>
+                  <option value="hour">Hour</option>
+                  <option value="minute">Minute</option>
+                  <option value="second">Second</option>
+              </select>
+              <br />
+              <div>
+              <button id="start">start</button>
+              <button id="pause">pause</button>
+              <button id="reset">refresh</button>
+              </div>
+          </div>
+          <div id="des">
+              <h2>How to use</h2>
+              <p>Welcome to AlivexemTech Countdown. Input a number of your choice in the section for<b> input countdown</b>. Select your preferred countdown type and click the <b>start</b> button</p>
+          
+              <p> To stop countdown, click the <b>pause</b> button and you also have an option to resume countdown when you click the button again.</p>
+           
+              <p>To refresh, click the <b>refresh</b> button.</p>
+              <br />
+              <tt> &copy AlivexemTech 2023, all rights reserved.</tt>
+          </div>
+          
+          
+             
+         
+        
+    </body>
+        <script src="clock.js"></script>
+</html>
