@@ -15,6 +15,10 @@ start.addEventListener("click", () => {
             alert("Countdown must be a number!")
             return;
         }
+        if(option == "day" && input > 365){
+            alert("Days can't exceed 365")
+            return 
+        }
 
         if (option == "hour" && input > 24) {
             alert("Hours can't exceed 24, use day countdown!")
