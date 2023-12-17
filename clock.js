@@ -5,7 +5,7 @@ let minute = document.getElementById("minute")
 let second = document.getElementById("second")
 let pause = document.getElementById("pause")
 let reset = document.getElementById("reset")
-
+let audio = new Audio("battle-march-action-loop-6935.mp3")
 start.addEventListener("click", () => {
     try {
         let input = document.getElementById("input").value
@@ -89,6 +89,7 @@ const countdown = () => {
         if(minute.value == 0 && second.value == 0){
             second.value = 1
             clearInterval(interval)
+            audio.play()
             alert("COUNTDOWN COMPLETE")
         }
         if(minute.value > 0){
