@@ -11,7 +11,7 @@ start.addEventListener("click", () => {
         let input = document.getElementById("input").value
         let option = document.querySelector(".opt").value.toLowerCase()
         if(input.trim() == ""){
-            alert("Day input cannot be empty!")
+            alert("Input section cannot be empty!")
             return
         }
         if (isNaN(input)) {
