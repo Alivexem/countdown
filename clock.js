@@ -40,30 +40,30 @@ start.addEventListener("click", () => {
 
         if (option == "day") {
             day.value = input - 1
-            hour.value = 24
-            minute.value = 60
-            second.value = 60
+            hour.value = 24 - 1
+            minute.value = 60 - 1
+            second.value = 60 - 1
         }
 
         if (option == "hour") {
             day.value = 0
             hour.value = input - 1
-            minute.value = 60
-            second.value = 60
+            minute.value = 60 - 1
+            second.value = 60 - 1
         }
 
         if (option == "minute") {
             day.value = 0
             hour.value = 0
             minute.value = input - 1
-            second.value = 60
+            second.value = 60 - 1
         }
 
         if (option == "second") {
             day.value = 0
             hour.value = 0
             minute.value = 0
-            second.value = input
+            second.value = input - 1
         }
 
         countdown()
