@@ -10,7 +10,10 @@ start.addEventListener("click", () => {
     try {
         let input = document.getElementById("input").value
         let option = document.querySelector(".opt").value.toLowerCase()
-
+        if(input.trim() == ""){
+            alert("Day input cannot be empty!")
+            return
+        }
         if (isNaN(input)) {
             alert("Countdown must be a number!")
             return;
