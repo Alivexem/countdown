@@ -1,3 +1,11 @@
+/* From the Developer of AlivexemTech. This is a personal Project for a TIMER WEB-APP, works with Real world time and built from scratch without fetching API'S. There's no documentation provided, you can fork and clone this... you are permitted.
+*
+* Have fun in trying to Optimize this code (if you will), you are always welcome!
+*
+*
+*/
+
+
 let start = document.getElementById("start")
 let day = document.getElementById("day")
 let hour = document.getElementById("hour")
