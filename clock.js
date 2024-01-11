@@ -105,7 +105,7 @@ const countdown = () => {
             second.value = 1
             clearInterval(interval)
             audio.play()
-            alert("COUNTDOWN COMPLETE")
+        
         }
         if(minute.value > 0){
             if(second.value == 0){
